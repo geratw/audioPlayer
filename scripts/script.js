@@ -43,10 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let isPlaying = false;
   let currentTrackIndex = 0;
 
-
   const tracks = [
     {
-      title: "Чистый лист",
+      title: "Подснежник",
       artist: "ATL",
       audioSrc: "/audio/ATL-Podsnezhnik.mp3",
       coverImageSrc: "/images/atl-logo.png",
@@ -64,10 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
       coverImageSrc: "/images/logo-3.jpg",
     },
     {
-        title: "Чистый лист",
-        artist: "DVRST feat. Лисса",
-        audioSrc: "/audio/DVRS.mp3",
-        coverImageSrc: "/images/logo-5.jpeg",
+      title: "Чистый лист",
+      artist: "DVRST feat. Лисса",
+      audioSrc: "/audio/DVRS.mp3",
+      coverImageSrc: "/images/logo-5.jpeg",
     },
   ];
 
@@ -97,8 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-
-
   function loadTrack(index) {
     const track = tracks[index];
     audio.src = track.audioSrc;
@@ -111,9 +108,9 @@ document.addEventListener("DOMContentLoaded", () => {
     trackArtistElement.textContent = track.artist;
     coverImageElement.src = track.coverImageSrc;
 
-document.body.style.backgroundImage = `url('${track.coverImageSrc}')`;
-    document.body.style.backgroundSize = '100% 100vh'; // Adjust for 100vh and 100vw
-    document.body.style.backgroundRepeat = 'no-repeat'; // Adjust as needed
+    document.body.style.backgroundImage = `url('${track.coverImageSrc}')`;
+    document.body.style.backgroundSize = "100% 100vh";
+    document.body.style.backgroundRepeat = "no-repeat";
 
     isPlaying = false;
     playPause();
