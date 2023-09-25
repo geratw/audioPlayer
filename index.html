@@ -3,36 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Music Player</title>
   </head>
   <body>
-    <audio id="audio" src="/audio/ATL-Podsnezhnik.mp3"></audio>
-
-    <div class="player-container">
-      <div class="player-header">
-        <h2 class="track-title">Подснежник</h2>
-        <h3 class="track-artist">ATL</h3>
-        <img class="cover-image" src="/images/atl-logo.png" alt="" />
+    <audio id="audio" src="audio/ATL-Podsnezhnik.mp3"></audio>
+    <div class="main-section">
+      <div class="player-container">
+        <div class="player-header">
+          <h2 class="track-title">Подснежник</h2>
+          <h3 class="track-artist">ATL</h3>
+          <img class="cover-image" src="images/atl-logo.png" alt="" />
+        </div>
+        <div class="player-controls">
+          <button id="prev-button">&#9668;</button>
+          <button id="play-pause-button">&#9658;</button>
+          <button id="next-button">&#9658;</button>
+        </div>
+        <div class="progress-bar-container">
+          <div id="progress-bar"></div>
+        </div>
+        <div class="time-indicator">
+          <span id="current-time">00:00</span>
+          <span id="duration">00:00</span>
+        </div>
       </div>
-      <div class="player-controls">
-        <button id="prev-button">&#9668;</button>
-        <button id="play-pause-button">&#9658;</button>
-        <button id="next-button">&#9658;</button>
-      </div>
-      <div class="progress-bar-container">
-        <div id="progress-bar"></div>
-      </div>
-      <div class="time-indicator">
-        <span id="current-time">00:00</span>
-        <span id="duration">00:00</span>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-items footer">
+      <div class="footer">
+        <div class="footer-items footer">
           <a href="https://github.com/geratw">GitHub</a>
           <span class="footer-text">Год создания: 2023</span>
           <a href="https://rs.school/js/" alt="Логотип курса"><img class="logo-image" src="/images/rs_school_js.svg" /></a>
+        </div>
       </div>
     </div>
     <script src="/scripts/script.js"></script>
