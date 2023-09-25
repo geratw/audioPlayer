@@ -47,26 +47,26 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Подснежник",
       artist: "ATL",
-      audioSrc: "/audio/ATL-Podsnezhnik.mp3",
-      coverImageSrc: "/images/atl-logo.png",
+      audioSrc: "audio/ATL-Podsnezhnik.mp3",
+      coverImageSrc: "images/atl-logo.png",
     },
     {
       title: "Танцуйте",
       artist: "ATL",
-      audioSrc: "/audio/ATL-Tancujjte.mp3",
-      coverImageSrc: "/images/atl-logo2.jpg",
+      audioSrc: "audio/ATL-Tancujjte.mp3",
+      coverImageSrc: "images/atl-logo2.jpg",
     },
     {
       title: "Падали звёзды",
       artist: "Luverance",
-      audioSrc: "/audio/Luverance-Padali_zvjozdy.mp3",
-      coverImageSrc: "/images/logo-3.jpg",
+      audioSrc: "audio/Luverance-Padali_zvjozdy.mp3",
+      coverImageSrc: "images/logo-3.jpg",
     },
     {
       title: "Чистый лист",
       artist: "DVRST feat. Лисса",
-      audioSrc: "/audio/DVRS.mp3",
-      coverImageSrc: "/images/logo-5.jpeg",
+      audioSrc: "audio/DVRS.mp3",
+      coverImageSrc: "images/logo-5.jpeg",
     },
   ];
 
