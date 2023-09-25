@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Танцуйте",
       artist: "ATL",
       audioSrc: "audio/ATL-Tancujjte.mp3",
-      coverImageSrc: "images/atl-logo2.jpg",
+      coverImageSrc: "images/atl-dance.png",
     },
     {
       title: "Падали звёзды",

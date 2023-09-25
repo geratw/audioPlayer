@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("images/atl-logo.png");
+  background-image: url("../images/atl-logo.png");
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,17 +22,12 @@ body {
   border-radius: 10px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  
 }
 .main-section {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .player-header {
@@ -93,15 +88,11 @@ body {
 .footer a {
   margin: 0 10px;
   text-decoration: none;
-  color: #007bff;
-}
-
-.footer a:hover {
-  color: #0056b3;
 }
 
 .footer-text {
   margin: 0 10px;
+  font-family: "Mooli", sans-serif;
 }
 
 .cover-image {
@@ -117,4 +108,14 @@ body {
 .footer-items {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+}
+
+.year {
+  font-size: 15px;
+}
+
+.contact-details {
+  color: #030303;
+  font-size: 25px;
+  padding: auto;
 }
